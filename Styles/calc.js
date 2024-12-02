@@ -24,10 +24,10 @@ function whatToDo() {
 	let answer = confirm('Do you like this :)');
 	answer2 = document.getElementById("P1");
 	if (answer) {
-		answer2.style.color = "blue";
+		answer2.style.backgroundColor = "red";
 	}
-	else {
-		answer2.style.color = "red";
+	else { 
+		answer2.style.backgroundColor = "green";
 	}
 };
 function subtraction() {
