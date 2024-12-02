@@ -25,6 +25,7 @@ function whatToDo() {
 	answer2 = document.getElementById("P1");
 	if (answer) {
 		answer2.style.backgroundColor = "red";
+		answer2.style.src = "file:///C:/Users/Admin/Desktop/Beyond_css/Nike%20SB%204199%2038-45.jfif";
 	}
 	else { 
 		answer2.style.backgroundColor = "green";
