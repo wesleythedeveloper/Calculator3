@@ -18,11 +18,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -32,7 +36,7 @@
               "RelativeDocumentMoniker": "Styles\\calc.js",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Calculator3\\Styles\\calc.js",
               "RelativeToolTip": "Styles\\calc.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAoAAAA",
+              "ViewState": "AQIAAA0AAACAYmZmZmYSwBoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-12-02T11:57:53.484Z",
               "EditorCaption": ""
@@ -45,7 +49,7 @@
               "RelativeDocumentMoniker": "index.html",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Calculator3\\index.html",
               "RelativeToolTip": "index.html",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAAAH4AAAAuAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAACEPYQAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-12-02T11:53:55.153Z",
               "EditorCaption": ""
