@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Calc In The Making</title>
+   <meta name="author" content="Wizkid">
+   <link href="Calc.css" rel="Stylesheet" name="">
+   <script defer src="calc.js"></script>
+	  <style>
+		  #Button0{
+  position:relative;
+  left:-11px;
+}
+#Button1{
+	
+}
+#Button2{
+	position:relative;
+	left:11px;
+}
+#Button3{
+  position:relative;
+  left:-11px;
+	
+}
+#Button4{
+	
+}
+#Button5{
+	position:relative;
+	left:11px;
+	
+}
+#Button6{
+  position:relative;
+  left:-11px;	
+}
+#Button7{
+	
+}
+#Button8{
+	position:relative;
+	left:11px;
+}
+#Button9{
+	position:relative;
+	left:23px;
+	margin-left:5px;
+	margin-right:50px;
+	
+}
+#Body{
+	position:flex;
+	flex-direction:row;
+	flew-wrap:wrap;
+	width:100px;
+	height:120px;
+	text-align:center;
+	border:2px solid black;
+	background-color:black;
+}
+body{
+	position:relative;
+	left:600px;
+	top:220px;
+	text-transform:capitalize;
+	background-color:aqua;
+}
+#header{
+	position:relative;
+	left:-100px;
+	bottom:100px;
+}
+.Buttons{
+	background-color:orange;
+}
+.Commands{
+	background-color:red;
+}
+.labels,input{
+	position:relative;
+	left:-10px;
+	margin-bottom:10px;
+}
+#input1{
+	margin-top:10px;
+}
+input[type="button"]{
+	position:relative;
+	left:110px;
+	border-radius:10px;
+}
+input[type="number"]{
+	border-radius:10px;
+}
+	  </style>
+  </head>
+  <body>
+   <header>
+   </header>
+   <main>
+     <article>
+	  <section>
+	    <h2 id="header">Calculator with basic commands</h2>
+	    <div id="Body">
+		<button id="Button0"class="Buttons"onclick='clickzero()'>0</button>
+		<button id="Button1"class="Buttons"onclick='clickone()'>1</button>
+		<button id="Button2"class="Buttons"onclick='clicktwo()'>2</button>
+		<button id="Button3"class="Buttons"onclick='clickthree()'>3</button>
+		<button id="Button4"class="Buttons"onclick='clickfour()'>4</button>
+		<button id="Button5"class="Buttons"onclick='clickfive()'>5</button>
+		<button id="Button6"class="Buttons"onclick='clicksix()'>6</button>
+		<button id="Button7"class="Buttons"onclick='clickseven()'>7</button>
+		<button id="Button8"class="Buttons"onclick='clickeight()'>8</button>
+		<button id="Button9"class="Buttons"onclick='clicknine()'>9</button>
+		<button id="+"class="Commands"onclick='addition()'>+</button>
+		<button id="-"class="Commands"onclick='subtraction()'>-</button>
+		<button id="*"class="Commands"onclick='multiplication()'>*</button>
+		<button id="/"class="Commands"onclick='divison()'>/</button>
+		</div>
+	  <form>
+	    <label for="input1" id="label1" class="labels">Number1:</label>
+	    <input type="number" id="input1" name="Number" value=""onclick='Enter1()'>
+		<br>
+		<label for="input2" id="label2" class="labels">Number2:</label>
+		<input type="number" id="input2" name="Number" value=""onclick='Enter2()'>
+		<br>
+		<input type="button" id="nameless" value="Submit"onclick='whatToDo()'>
+	  </form>
+	  </section>
+	  <aside>
+	  </aside>
+	 </article>
+   </main>
+   <footer>
+   </footer>
+  </body>
+</html>
